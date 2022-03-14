@@ -1,0 +1,99 @@
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 140px;
+    text-decoration: none;
+    background: url(/img/bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+.header {
+    box-sizing: border-box;
+    padding: 54px 0 0;
+    width: 100%;
+    color: #FC61FF;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Long Cang';
+    font-size: 68px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.header a {
+    text-decoration: none;
+    color: #FC61FF;
+    
+}
+.menu {
+    position: relative;
+}
+
+.burger_menu {
+    position: absolute;
+    width: 23px;
+    height: 3px;
+    top: 12px;
+    background-color: #FC61FF;
+}
+.second, .third {
+    top: 19px;
+    width: 16px;
+}
+.fourth {
+    top: 27px;
+    width: 10px;
+}
+
+#vertical_link {
+    position: relative;
+    
+}
+.nav {
+    font-size: 32px;
+    list-style-type: none;
+    padding: 0;
+}
+#vertical_link a {
+    display: inline-block;
+    color: #FC61FF;
+    text-decoration: none;
+    padding-top: 40px;
+
+}
+.footer {
+    box-sizing: border-box;
+    padding-bottom: 56px;
+    display: flex;
+    gap: 40px
+}
+.footer img {
+    height: 48px;
+    width: 48px;
+}
+.instagram {
+    border-radius: 20px;
+}
+.facebook {
+    border-radius: 20px;
+}
+.vk {
+    border-radius: 20px;
+ }
